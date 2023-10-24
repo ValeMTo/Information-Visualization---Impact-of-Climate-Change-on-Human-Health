@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GenericMetadata xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/genericmetadata SDMXGenericMetadata.xsd http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:genericmetadata="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/genericmetadata" xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact" xmlns:cross="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/cross" xmlns:generic="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/generic" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Header>
+        <ID>SDG_1310IP_A</ID>
+        <Test>false</Test>
+        <Name>SDG_1310IP_A_4D_2023_0000 (sdg_13_10_esmsip2)</Name>
+        <Prepared>2023-05-02T16:30:18</Prepared>
+        <Sender id="4D0">
+            <Contact/>
+        </Sender>
+        <DataSetID>SDG_1310IP_A_1683037819316</DataSetID>
+        <DataSetAction></DataSetAction>
+        <Extracted></Extracted>
+        <ReportingBegin>2023-01-01T00:00:00</ReportingBegin>
+        <ReportingEnd>2023-12-31T00:00:00</ReportingEnd>
+        <DataSetAgency>ESTAT</DataSetAgency>
+    </Header>
+    <genericmetadata:MetadataSet>
+        <genericmetadata:MetadataStructureRef>ESMSIP2_MSD</genericmetadata:MetadataStructureRef>
+        <genericmetadata:MetadataStructureAgencyRef>ESTAT</genericmetadata:MetadataStructureAgencyRef>
+        <genericmetadata:ReportRef>ESMSIP_REPORT_V2</genericmetadata:ReportRef>
+        <genericmetadata:AttributeValueSet>
+            <genericmetadata:TargetRef>FULL_ESMS</genericmetadata:TargetRef>
+            <genericmetadata:TargetValues>
+                <genericmetadata:ComponentValue component="TIME_PERIOD" object="TimeDimension">2023-A0</genericmetadata:ComponentValue>
+                <genericmetadata:ComponentValue component="DATA_PROVIDER" object="DataProvider">4D0</genericmetadata:ComponentValue>
+                <genericmetadata:ComponentValue component="DATAFLOW" object="DataFlow">SDG_1310IP_A:1.0</genericmetadata:ComponentValue>
+            </genericmetadata:TargetValues>
+            <genericmetadata:ReportedAttribute conceptID="CONTACT">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_ORGANISATION">
+                    <genericmetadata:Value>&lt;p&gt;Eurostat, the statistical office of the European Union&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="ORGANISATION_UNIT">
+                    <genericmetadata:Value>&lt;p&gt;E2: Environmental statistics and accounts; sustainable development&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_NAME">
+                    <genericmetadata:Value>Restricted from publication</genericmetadata:Value>
+                    <genericmetadata:Annotations>
+                        <common:Annotation>
+                            <common:AnnotationType>RESTRICTED_FOR_PUBLICATION</common:AnnotationType>
+                            <common:AnnotationText>YES</common:AnnotationText>
+                        </common:Annotation>
+                    </genericmetadata:Annotations>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_FUNCT">
+                    <genericmetadata:Value>Restricted from publication</genericmetadata:Value>
+                    <genericmetadata:Annotations>
+                        <common:Annotation>
+                            <common:AnnotationType>RESTRICTED_FOR_PUBLICATION</common:AnnotationType>
+                            <common:AnnotationText>YES</common:AnnotationText>
+                        </common:Annotation>
+                    </genericmetadata:Annotations>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_MAIL">
+                    <genericmetadata:Value>&lt;p&gt;e-mail contact : &lt;a href="mailto:ESTAT-SDI-EU2020-INDICATORS@ec.europa.eu"&gt;ESTAT-SDG-MONITORING@ec.europa.eu&lt;br /&gt;&lt;/a&gt;&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_EMAIL">
+                    <genericmetadata:Value>Restricted from publication</genericmetadata:Value>
+                    <genericmetadata:Annotations>
+                        <common:Annotation>
+                            <common:AnnotationType>RESTRICTED_FOR_PUBLICATION</common:AnnotationType>
+                            <common:AnnotationText>YES</common:AnnotationText>
+                        </common:Annotation>
+                    </genericmetadata:Annotations>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_PHONE">
+                    <genericmetadata:Value>Restricted from publication</genericmetadata:Value>
+                    <genericmetadata:Annotations>
+                        <common:Annotation>
+                            <common:AnnotationType>RESTRICTED_FOR_PUBLICATION</common:AnnotationType>
+                            <common:AnnotationText>YES</common:AnnotationText>
+                        </common:Annotation>
+                    </genericmetadata:Annotations>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_FAX">
+                    <genericmetadata:Value>Restricted from publication</genericmetadata:Value>
+                    <genericmetadata:Annotations>
+                        <common:Annotation>
+                            <common:AnnotationType>RESTRICTED_FOR_PUBLICATION</common:AnnotationType>
+                            <common:AnnotationText>YES</common:AnnotationText>
+                        </common:Annotation>
+                    </genericmetadata:Annotations>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="META_UPDATE">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="META_CERTIFIED">
+                    <genericmetadata:Value>2023-03-21</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="META_POSTED">
+                    <genericmetadata:Value>2023-04-24</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="META_LAST_UPDATE">
+                    <genericmetadata:Value>2023-03-21</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="RELEVANCE">
+                <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;The indicator&amp;nbsp;is part of the EU Sustainable Development Goals (SDG) indicator set. It is used to monitor progress towards &amp;nbsp;Goal 13 on climate action; which is embedded in the European Commission’s Priorities under the European Green Deal. SDG 13 aims to implement the commitment to the United Nations Framework Convention on Climate Change and operationalise the Green Climate Fund.&lt;/p&gt;
+&lt;p&gt;The European Climate Law sets out a framework for climate action and increases the EU’s ambition for 2030, with a new goal to reduce net greenhouse gas (GHG) emissions by at least 55 % by that year&amp;nbsp;(compared to 1990)&amp;nbsp;and to achieve climate-neutrality by 2050. The European Commission has also proposed a package of new and revised EU climate and energy legislation — the so called Fit for 55 package — to increase its ambition on climate mitigation. The package comprises an interconnected set of measures in the area of energy, transport, taxation and climate policies, and includes strengthened and expanded carbon pricing, targets, standards and support measures.&amp;nbsp;&lt;span class="TextRun SCXW237160961 BCX9" lang="EN-GB" xml:lang="EN-GB" data-contrast="auto"&gt;&lt;span class="NormalTextRun SCXW237160961 BCX9"&gt;It also&amp;nbsp;&lt;/span&gt;&lt;span class="NormalTextRun SCXW237160961 BCX9"&gt;sets a&lt;/span&gt;&lt;span class="NormalTextRun SCXW237160961 BCX9"&gt;&amp;nbsp;target for natural carbon sinks&amp;nbsp;&lt;/span&gt;&lt;span class="NormalTextRun SCXW237160961 BCX9"&gt;of&amp;nbsp;&lt;/span&gt;&lt;span class="NormalTextRun SCXW237160961 BCX9"&gt;310&amp;nbsp;&lt;/span&gt;&lt;span class="NormalTextRun SCXW237160961 BCX9"&gt;million tonnes of CO&lt;/span&gt;&lt;/span&gt;&lt;span class="TextRun SCXW237160961 BCX9" lang="EN-GB" xml:lang="EN-GB" data-contrast="auto"&gt;2&lt;/span&gt;&lt;span class="TextRun SCXW237160961 BCX9" lang="EN-GB" xml:lang="EN-GB" data-contrast="auto"&gt;&lt;span class="NormalTextRun SCXW237160961 BCX9"&gt;&amp;nbsp;equivalents&lt;/span&gt;&lt;span class="NormalTextRun SCXW237160961 BCX9"&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Furthermore, the NextGenerationEU recovery plan is the Union’s economic response to the COVID-19 crisis. It includes the Recovery and Resilience Facility worth EUR 672.5 billion, of which at least 37 % must go to climate action.&amp;nbsp;Each national recovery and resilience plan will have to meet this target of a minimum of 37% of expenditure related to climate, and all reforms and investments by Member States as a part of the recovery fund must comply with the ’do-no-significant-harm’principle and therefore avoid significant negative impact on the EU’s climate and environmental objectives.&lt;/p&gt;
+&lt;p&gt;The new EU cohesion policy (2021 to 2027) includes a ‘greener, carbon-free Europe’ as one of its five main objectives receiving 65&amp;nbsp;% to 85&amp;nbsp;% of available funding together with an objective for a ‘smarter Europe’.&lt;/p&gt;</genericmetadata:Value>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="INDICATOR">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="DATA_DESCR">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;The indicator measures total national emissions (from both ESD and ETS sectors) including international aviation of the so called ‘Kyoto basket’ of greenhouse gases, including carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), and the so-called F-gases (hydrofluorocarbons, perfluorocarbons, nitrogen triflouride (NF3) and sulphur hexafluoride (SF6)) from all sectors of the GHG emission inventories (including international aviation and indirect CO2). The indicator is presented in two forms: as net emissions including land use, land use change and forestry (LULUCF) as well as excluding LULUCF. Using each gas’ individual global warming potential (GWP), they are being integrated into a single indicator expressed in units of CO2 equivalents. The GHG emission inventories are submitted annually by the EU Member States to the United Nations Framework Convention on Climate Change (UNFCCC).&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="UNIT_MEASURE">
+                    <genericmetadata:Value>&lt;p&gt;Index 1990 = 100 and tonnes of CO&lt;sub&gt;2&lt;/sub&gt;&amp;nbsp;equivalent per capita&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="REF_PERIOD">
+                    <genericmetadata:Value>&lt;p&gt;Calendar year.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="ACCURACY_OVERALL">
+                    <genericmetadata:Value>&lt;p&gt;Indicator from non-ESS source. For assessment of accuracy please refer to the original source (see link to external data source and metadata in section “Annexes”).&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="SOURCE_TYPE">
+                    <genericmetadata:Value></genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="SOURCE_TYPE_ORG">
+                        <genericmetadata:Value>&lt;p&gt;EEA (UNFCCC reporting)&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                    <genericmetadata:ReportedAttribute conceptID="SOURCE_TYPE_COMMENT">
+                        <genericmetadata:Value>&lt;p&gt;Data source: EEA, Reporting under United Nations Framework Convention on Climate Change (UNFCCC reporting)&lt;/p&gt;
+&lt;p&gt;Data provider: European Environment Agency (EEA), based on data from covered countries.&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="FREQ_TIMELINESS">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="FREQ_DISS">
+                    <genericmetadata:Value></genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="FREQ_DISS_GRADE">
+                        <genericmetadata:Value>HIGH</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                    <genericmetadata:ReportedAttribute conceptID="FREQ_DISS_COMMENT">
+                        <genericmetadata:Value>&lt;p&gt;Indicator is updated annually.&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="TIMELINESS">
+                    <genericmetadata:Value></genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="TIMELINESS_GRADE">
+                        <genericmetadata:Value>MEDIUM</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                    <genericmetadata:ReportedAttribute conceptID="TIMELINESS_COMMENT">
+                        <genericmetadata:Value>&lt;p&gt;New data points are disseminated within two years after the reference year.&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="COVERAGE_COMPARABILITY">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="REF_AREA">
+                    <genericmetadata:Value></genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="REF_AREA_GRADE">
+                        <genericmetadata:Value>HIGH</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                    <genericmetadata:ReportedAttribute conceptID="REF_AREA_COMMENT">
+                        <genericmetadata:Value>&lt;p&gt;&lt;span&gt;&lt;span&gt;Data are presented for all EU Member States plus&lt;/span&gt;&amp;nbsp;Iceland, Norway, Switzerland, the United Kingdom and Türkiye.&lt;/span&gt;&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COMPAR_GEO">
+                    <genericmetadata:Value></genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="COMPAR_GEO_GRADE">
+                        <genericmetadata:Value>HIGH</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                    <genericmetadata:ReportedAttribute conceptID="COMPAR_GEO_COMMENT">
+                        <genericmetadata:Value>&lt;p&gt;&lt;span&gt;Data are comparable between all EU Member States respectively other presented countries.&lt;/span&gt;&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COVERAGE_TIME">
+                    <genericmetadata:Value></genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="COVERAGE_TIME_GRADE">
+                        <genericmetadata:Value>HIGH</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                    <genericmetadata:ReportedAttribute conceptID="COVERAGE_TIME_COMMENT">
+                        <genericmetadata:Value>&lt;p&gt;&lt;span&gt;Presented time series (including EU aggregates) starts in year 1990.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;span class="TextRun SCXW111900943 BCX9" lang="EN-GB" xml:lang="EN-GB" data-contrast="none"&gt;&lt;span class="NormalTextRun SCXW111900943 BCX9" data-ccp-parastyle="Source" data-ccp-parastyle-defn="{&amp;quot;ObjectId&amp;quot;:&amp;quot;9b77b5d5-d0b3-4f7b-a35c-32e94f213522|116&amp;quot;,&amp;quot;ClassId&amp;quot;:1073872969,&amp;quot;Properties&amp;quot;:[469775450,&amp;quot;Source&amp;quot;,201340122,&amp;quot;2&amp;quot;,134234082,&amp;quot;true&amp;quot;,134233614,&amp;quot;true&amp;quot;,469778129,&amp;quot;Source&amp;quot;,335572020,&amp;quot;1&amp;quot;,469777841,&amp;quot;Arial&amp;quot;,469777842,&amp;quot;Arial&amp;quot;,469777843,&amp;quot;Times New Roman&amp;quot;,469777844,&amp;quot;Arial&amp;quot;,469769226,&amp;quot;Arial,Times New Roman&amp;quot;,335551500,&amp;quot;7895160&amp;quot;,268442635,&amp;quot;16&amp;quot;,335551547,&amp;quot;2057&amp;quot;,335559740,&amp;quot;276&amp;quot;,201341983,&amp;quot;0&amp;quot;,335559739,&amp;quot;200&amp;quot;,335551550,&amp;quot;6&amp;quot;,335551620,&amp;quot;6&amp;quot;,469778324,&amp;quot;Normal&amp;quot;]}"&gt;Data for 202&lt;/span&gt;&lt;span class="NormalTextRun SCXW111900943 BCX9" data-ccp-parastyle="Source"&gt;1&lt;/span&gt;&lt;span class="NormalTextRun SCXW111900943 BCX9" data-ccp-parastyle="Source"&gt; are provisional estimates based on the &lt;/span&gt;&lt;/span&gt;&lt;a class="Hyperlink SCXW111900943 BCX9" href="https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-greenhouse-gas-emissions-5" rel="noreferrer noopener" target="_blank"&gt;&lt;span class="TextRun Underlined SCXW111900943 BCX9" lang="EN-GB" xml:lang="EN-GB" data-contrast="none"&gt;&lt;span class="NormalTextRun SCXW111900943 BCX9" data-ccp-charstyle="Hyperlink"&gt;EEA approximated GHG inventory for the year 202&lt;/span&gt;&lt;span class="NormalTextRun SCXW111900943 BCX9" data-ccp-charstyle="Hyperlink"&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span class="TextRun SCXW111900943 BCX9" lang="EN-GB" xml:lang="EN-GB" data-contrast="none"&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COMPAR_TIME">
+                    <genericmetadata:Value></genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="COMPAR_TIME_GRADE">
+                        <genericmetadata:Value>HIGH</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                    <genericmetadata:ReportedAttribute conceptID="COMPAR_TIME_COMMENT">
+                        <genericmetadata:Value>&lt;p&gt;&lt;span&gt;Length of comparable time series without methodological break is longer than 4 data points.&lt;/span&gt;&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="ACCESSIBILITY_CLARITY">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="PUBLICATIONS">
+                    <genericmetadata:Value>&lt;p&gt;Analysis of the indicator is presented in&amp;nbsp;Eurostat's annual monitoring report on Sustainable development in the EU (progress towards SDGs in the EU context).&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="ONLINE_DB">
+                    <genericmetadata:Value>&lt;p&gt;See table&amp;nbsp;&lt;a href="https://ec.europa.eu/eurostat/databrowser/view/sdg_13_10/default/table?lang=en"&gt;sdg_13_10&lt;/a&gt;&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="DISS_OTHER">
+                    <genericmetadata:Value>&lt;p&gt;Eurostat dedicated section on&amp;nbsp;SDGs:&amp;nbsp;&lt;a href="http://ec.europa.eu/eurostat/web/sdi/overview"&gt;http://ec.europa.eu/eurostat/web/sdi/overview&lt;/a&gt;&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="COMMENT_DSET">
+                <genericmetadata:Value>&lt;p&gt;Copyrights: &lt;a href="http://ec.europa.eu/eurostat/statistics-explained/index.php/Copyright/licence_policy" target="_blank"&gt;Eurostat Copyright/Licence Policy&lt;/a&gt; is applicable.&lt;/p&gt;</genericmetadata:Value>
+            </genericmetadata:ReportedAttribute>
+        </genericmetadata:AttributeValueSet>
+        <genericmetadata:Annotations>
+            <common:Annotation>
+                <common:AnnotationType>URL</common:AnnotationType>
+                <common:AnnotationTitle>National emissions reported to the UNFCCC and to the EU Greenhouse Gas Monitoring Mechanism</common:AnnotationTitle>
+                <common:AnnotationURL>https://www.eea.europa.eu/data-and-maps/data/national-emissions-reported-to-the-unfccc-and-to-the-eu-greenhouse-gas-monitoring-mechanism-18</common:AnnotationURL>
+            </common:Annotation>
+            <common:Annotation>
+                <common:AnnotationType>URL</common:AnnotationType>
+                <common:AnnotationTitle>EEA greenhouse gas - data viewer</common:AnnotationTitle>
+                <common:AnnotationURL>http://www.eea.europa.eu/data-and-maps/data/data-viewers/greenhouse-gases-viewer</common:AnnotationURL>
+            </common:Annotation>
+            <common:Annotation>
+                <common:AnnotationType>FOR_PUBLICATION</common:AnnotationType>
+                <common:AnnotationText>YES</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+                <common:AnnotationType>RELATED_METADATA</common:AnnotationType>
+                <common:AnnotationText>env_air_gge_esms</common:AnnotationText>
+                <common:AnnotationURL>http://ec.europa.eu/eurostat/cache/metadata/EN/env_air_gge_esms.htm</common:AnnotationURL>
+            </common:Annotation>
+        </genericmetadata:Annotations>
+    </genericmetadata:MetadataSet>
+</GenericMetadata>

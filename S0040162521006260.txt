@@ -1,0 +1,11 @@
+Ahmet Selcuk Yalcin, Huseyin Selcuk Kilic, Dursun Delen,
+The use of multi-criteria decision-making methods in business analytics: A comprehensive literature review,
+Technological Forecasting and Social Change,
+Volume 174,
+2022,
+121193,
+ISSN 0040-1625,
+https://doi.org/10.1016/j.techfore.2021.121193.
+(https://www.sciencedirect.com/science/article/pii/S0040162521006260)
+Abstract: Business analytics (BA) systems are considered significant investments for enterprises because they have the potential to considerably improve firms’ performance. With the value offered by BA, companies are able to discover the hidden information in the data, improve decision-making processes, and support strategic planning. On the other hand, because there are multiple criteria and multiple alternatives involved in most decision-making situations, multi-criteria decision-making (MCDM) methods play an important role in BA practices. Providing inputs to the components of descriptive or predictive analytics or being used as a decision-making tool for evaluating the alternatives within prescriptive analytics exemplify the roles. Therefore, the use of hidden information discovered by business analytics and the need for utilizing the right MCDM method for optimal decision-making made these two concepts inseparable. In this paper, in order to review the use of MCDM methods in BA, the subject of BA is investigated from a taxonomical perspective (descriptive, predictive, and prescriptive), and its connection with MCDM techniques is revealed. Similarly, MCDM methods are studied using two main categories, multi-attribute decision making (MADM) and multi-objective decision making (MODM) methods. Furthermore, tabular and graphical analyses are also performed within the proposed review methodology. To the best of our knowledge, this review is the first attempt that holistically considers the use of MCDM methods in BA.
+Keywords: Business analytics; Decision support; Multi-criteria decision making (MCDM); Multi-attribute decision-making (MADM); Multi-objective decision-making (MODM)
