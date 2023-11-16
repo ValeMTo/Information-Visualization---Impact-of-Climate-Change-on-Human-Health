@@ -8,7 +8,7 @@ if __name__ == '__main__':
 
     PER_INHABITANTS = 100000
     scale = 0.15
-    YEAR = 2015
+    YEAR = 2013
     DISEASE = "RESPIRATORY"
     
     grouped_df, europe, pop_df = get_world(POPULATION_FILE_PATH, NET_EMISSION_FILE_PATH)
